@@ -1,0 +1,28 @@
+.app-download{
+    margin: auto auto;
+    margin-top: 150px;
+    font-size: max(3vw,20px);
+    text-align: center;
+    font-family: "Archivo", sans-serif;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.app-icon{
+    display: flex;
+    justify-content: center;
+    gap: max(2vw,10px);
+}
+
+.app-icon img{
+    height: 65px;
+    width: max(30vw,120px);
+    max-width: 180px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.app-icon img:hover{
+    transform: scale(1.05);
+}

@@ -1,0 +1,48 @@
+.product-section{
+  height: 43vh;
+  width: 100%;
+  background:url(https://ideogram.ai/assets/image/lossless/response/vog9c61oSvyI3TmGOZivmA);
+  filter: brightness(0.7);
+  object-fit: cover;
+  background-position: center;
+  padding: 2rem 1rem;
+  margin: 2rem auto;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.heading{
+    text-align: center;
+    position: relative;
+    top: -280px;
+    color: white;
+    font-size: 8rem;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);
+}
+.category{
+    position: relative;
+    top: -170px;
+}
+
+.headphone-card{
+    position: relative;
+    top: -150px;
+}
+@media (max-width: 600px) {
+    .product-section{
+  height: 35vh;
+}
+.heading{
+    top: -250px;
+    font-size: 5rem;
+}
+.category{
+    position: relative;
+    top: -120px;
+}
+
+.headphone-card{
+    position: relative;
+    top: -150px;
+}
+}

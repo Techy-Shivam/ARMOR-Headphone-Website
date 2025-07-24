@@ -1,0 +1,37 @@
+.headphone-display{
+    padding-left:35px;
+}
+.headphone-display h2{
+        font-family: "Archivo", sans-serif;
+        font-size: max(2vw,24px);
+}
+.head-show-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(255px,1fr));
+    margin-top: 30px;
+    gap: 30px;
+    row-gap: 30px;
+}
+.bottom-banner {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: -90px;
+  padding: 0 15px;
+}
+
+.responsive-image {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  .responsive-image {
+    border-radius: 8px;
+  }
+}

@@ -1,0 +1,81 @@
+.Headphone-item{
+    width: 92%;
+    box-shadow: 0px 0px 10px #0000002b;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 10px;
+}
+.headphone-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    height: 200px;
+    cursor: pointer;
+    border-radius: 30%;
+}
+.headphone-info{
+    padding: 20px;
+}
+.head-name-rating{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+.head-name-rating p{
+    font-size: 20px;
+    font-family: "Archivo", sans-serif;
+    font-weight: 500;
+}
+.head-name-rating img{
+    width: 70px;
+}
+.rating{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.head-desc{
+    color: #676767;
+    font-size: 15px;
+    font-family: "Archivo", sans-serif;
+}
+.head-price{
+    color: tomato;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 10px 0px;
+    font-family: "Archivo", sans-serif;
+}
+.headphone-img-container{
+    position: relative;
+}
+.headphone-img-container .add{
+    width: 35px;
+    position: absolute;
+    bottom: -20px;
+    right: -10px;
+    border: 1px solid tomato;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.head-counter{
+    position: absolute;
+    bottom: -20px;
+    right: -10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 3px;
+    border-radius: 50px;
+    background-color: white;
+}
+.head-counter img{
+    width: 30px;
+}
