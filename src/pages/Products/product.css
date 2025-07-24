@@ -46,3 +46,10 @@
     top: -150px;
 }
 }
+@media (max-width: 480px){
+    .heading{
+    color: white;
+    font-size: 4rem;
+    
+}
+}

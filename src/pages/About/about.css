@@ -248,7 +248,7 @@
     max-width: 55vh;
   }
   .about-cat-img img {
-    width: 85%;
+    width: 100%;
   }
    .about-faq {
     padding: 15px;
@@ -271,10 +271,29 @@
   .about-hero-img {
     max-width: 350px;
   }
+  .about-hero-video { 
+  height: 250px;
+}
+.about-info h2 {
+  font-size: 2rem;
+}
+.about-info p {
+  font-size: 0.8rem;
+}
+.about-contact p {
+  font-size: 2rem;
+}
   .about-form textarea {
     max-width: 33vh;
   }
   .about-cat-img img {
-    width: 95%;
+    width: 105%;
   }
+  .faq-item h3 {
+  font-size: 1.3rem;
+}
+
+.faq-item p {
+  font-size: 1rem;
+}
 }
